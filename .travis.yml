@@ -12,4 +12,4 @@ jdk:
 # before_script:
 #   - _JAVA_OPTIONS=
 
-script: ant test
+ant UnitTest
