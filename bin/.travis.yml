@@ -1,3 +1,15 @@
 language: java
-rvm:
- - 9.0.1
+
+
+
+jdk:
+  - oraclejdk8
+  - oraclejdk9
+  - openjdk7
+
+# install: ant deps
+
+# before_script:
+#   - _JAVA_OPTIONS=
+
+script: ant test
