@@ -7,7 +7,7 @@ jdk:
   - oraclejdk9
   - openjdk7
 
-# install: ant deps
+install: ant deps
 
 # before_script:
 #   - _JAVA_OPTIONS=
